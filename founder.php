@@ -3,20 +3,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>The Advice Shop - About</title>
+<title>The Advice Shop - Founder</title>
 <link href="styles/mainstyles.css" rel="stylesheet" type="text/css" media="screen">
 </head>
 
 <body>
 <?php include("inc_header.php");
 include("inc_nav.php"); ?>
-<h2>About</h2>
+<h2>Arthur Costa</h2>
 <div id="content">
-  <p>The advice that you need and the right time can do wonder!</p>
-    <p> Use the advice shop to change your life with the best possible advice</p>
-    <p> If you want to find more about the 
-    <a href="founder.php">Founder</a> 
-    </p>
+  <p> Arthur invented the advice shop in 2020 from a advice of one of his friends </p>
+  <p> He followed the friends advice and became very succesful. </p>
 </div>
 
 <p>&nbsp;</p>
