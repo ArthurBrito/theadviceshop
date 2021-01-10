@@ -24,7 +24,19 @@ include("inc_nav.php"); ?>
 	echo "</p>\n</blockquote>\n";
   }
   ?>
+
+<?php include("create-advice.php"); ?>
+
+<?php  
+if (isset($_REQUEST['advice'])) {
+    echo "<blockquote>". $_REQUEST['advice']. "<strong>- Youself </strong>". "</blockquote>";
+}
+else {
+    echo "<h2>No advice given so far.</h2>";
+}
+?>
 </div>
+
 <p>&nbsp;</p>
 <?php include("inc_footer.php"); ?>
 </body>
